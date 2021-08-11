@@ -19,8 +19,8 @@ dir_month = {
  11: 'осень'
 }
 
-list_month = ['зима', 'весна', 'лето', 'осень']
+list_month = ['зима', 'зима', 'зима', 'весна', 'весна', 'весна', 'лето', 'лето', 'лето', 'осень', 'осень', 'осень']
 
 user_input = int(input('Укажите месяц в виде числа от 1 до 12: ')) % 12
 print(dir_month.get(user_input))
-print(list_month[user_input // 4])
+print(list_month[user_input])
