@@ -15,4 +15,4 @@ def multiply(param_1, param_2):
 
 num_min = 100
 num_max = 1000
-print(reduce(multiply, range(num_min, num_max + 1)))
+print(reduce(multiply, range(num_min, num_max + 1, 2)))
